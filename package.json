@@ -1,20 +1,20 @@
 {
-  "name": "p12",
-  "version": "0.2.0",
+  "name": "p14",
+  "version": "0.1.0",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC0 1.0",
-  "description": "Metadatenprofile: Deutsch Primar",
+  "description": "Metadatenprofile: 2004 Deutsch Primar",
   "scripts": {
     "validate": "validate-md-profile"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iqb-vocabs/p12.git"
+    "url": "git+https://github.com/iqb-vocabs/p14.git"
   },
   "bugs": {
-    "url": "https://github.com/iqb-vocabs/p12/issues"
+    "url": "https://github.com/iqb-vocabs/p14/issues"
   },
-  "homepage": "https://github.com/iqb-vocabs/p12#readme",
+  "homepage": "https://github.com/iqb-vocabs/p14#readme",
   "dependencies": {
     "@iqb/validate-md-profile": "^0.7.5"
   }
