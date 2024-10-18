@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  site-url: https://iqb-vocabs.github.io/p14/
+  favicon: favicon.ico
+  page-navigation: true
+  repo-url: https://github.com/iqb-vocabs/p14/
+  navbar:
+    logo: IQB-klein.png
+    search: true
+    left:
+      - href: index.qmd
+        text: "Metadatenprofile für Testaufgaben: Alte Deutsch Primar"
+    right:
+      - icon: github
+        href: https://github.com/iqb-vocabs/p14
+        aria-label: Source Code
+
+
+lang: de
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
