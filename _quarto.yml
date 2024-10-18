@@ -11,7 +11,7 @@ website:
     search: true
     left:
       - href: index.qmd
-        text: "Metadatenprofile für Testaufgaben: 2004 Deutsch Primar"
+        text: "Metadatenprofile für Testaufgaben: Deutsch Primar 2004"
     right:
       - icon: github
         href: https://github.com/iqb-vocabs/p14

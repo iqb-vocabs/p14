@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC0 1.0",
-  "description": "Metadatenprofile: 2004 Deutsch Primar",
+  "description": "Metadatenprofile: Deutsch Primar 2004",
   "scripts": {
     "validate": "validate-md-profile"
   },
