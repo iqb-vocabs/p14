@@ -17,6 +17,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p14/master/unit.jso
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
 | Entwickler:in | Text |Einzeilig, Sprache(n): de | iqb_author |
+| Für SPF geeignet | Ja/Nein |Text für WAHR: ja, Text für FALSCH: nein | a1 |
 | Kompetenzbereich | [Vokabular](https://w3id.org/iqb/v13/k1/) | url: 'https://w3id.org/iqb/v13/k1/', Einmalauswahl, Zeige nur erste Ebene | w8 |
 | Aufgabenzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
 | Quellenangaben | Text |Mehrzeilig, Sprache(n): de | iqb_copyright |
