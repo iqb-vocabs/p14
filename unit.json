@@ -1,9 +1,14 @@
 {
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p14/master/unit.json",
-  "label": [{
-    "lang": "de",
-    "value": "IQB Deutsch Primar 2004 - Aufgabe"
-  }],
+  "label": [
+    {
+      "lang": "de",
+      "value": "IQB Deutsch Primar 2004 - Aufgabe"
+    }
+  ],
+  "target": [
+    "UNIT"
+  ],
   "groups": [
     {
       "label": [
@@ -21,9 +26,9 @@
               "value": "Entwickler:in"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "single"
+            "format": "SINGLE"
           }
         },
         {
@@ -34,7 +39,7 @@
               "value": "Für SPF geeignet"
             }
           ],
-          "type": "boolean",
+          "type": "BOOLEAN",
           "parameters": {
             "trueLabel": [
               {
@@ -58,7 +63,7 @@
               "value": "Kompetenzbereich"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v13/k1/",
             "allowMultipleValues": false,
@@ -73,7 +78,7 @@
               "value": "Aufgabenzeit"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -88,9 +93,9 @@
               "value": "Quellenangaben"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         },
         {
@@ -101,7 +106,7 @@
               "value": "Textsorte"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v28/ts/",
             "allowMultipleValues": false
@@ -115,7 +120,7 @@
               "value": "Wortanzahl"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0
@@ -129,7 +134,7 @@
               "value": "Stimuluszeit"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -144,9 +149,9 @@
               "value": "Hörsequenz Transkript"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         },
         {
@@ -157,9 +162,9 @@
               "value": "Unverträgliche Aufgaben"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "single"
+            "format": "SINGLE"
           }
         }
       ]

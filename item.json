@@ -1,9 +1,14 @@
 {
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p14/master/item.json",
-  "label": [{
-    "lang": "de",
-    "value": "IQB Deutsch Primar 2004 - Item"
-  }],
+  "label": [
+    {
+      "lang": "de",
+      "value": "IQB Deutsch Primar 2004 - Item"
+    }
+  ],
+  "target": [
+    "ITEM"
+  ],
   "groups": [
     {
       "label": [
@@ -21,7 +26,7 @@
               "value": "Itemformat"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v27/dp/",
             "allowMultipleValues": false,
@@ -36,7 +41,7 @@
               "value": "Anforderungsbereich"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v13/a1/",
             "allowMultipleValues": false,
@@ -51,7 +56,7 @@
               "value": "Bildungsstandard primär"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v13/k1/",
             "allowMultipleValues": false
@@ -65,7 +70,7 @@
               "value": "Bildungsstandards sekundär"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v13/k1/",
             "allowMultipleValues": true
@@ -79,7 +84,7 @@
               "value": "Itemzeit"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -94,7 +99,7 @@
               "value": "Geschätzte Schwierigkeit"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v26/ea/",
             "allowMultipleValues": false
